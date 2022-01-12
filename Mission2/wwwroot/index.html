@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>IS 413 - Mission 2</title>
+    <!--Bootstrap CSS-->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--Custom CSS-->
+    <link href="css/default.css" rel="stylesheet" />
+    <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="icons8-turtle-50.png">
+
+</head>
+<body>
+    <!--header of my name-->
+    <h1>Jess Hansen</h1>
+
+    <!--image of doing something that I enjoy (topgolf)-->
+    <img src="img/top_golf.jpg" />
+    <br /><br />
+
+    <!--paragraph of what I'm trying to get out of this class-->
+    <p>
+        I hope to get out of this class how to build good applications using different coding languages. I also would like to become proficient in C#.
+        By the end of this class, I hope to have more projects to add to my portfolio.
+    </p>
+
+    <!--list of top 3 jobs I want-->
+    <h3>Top 3 Jobs I'm interested in pursuing when I graduate:</h3>
+    <ol>
+        <li>Data Analyst</li>
+        <li>Software Developer/Programmer</li>
+        <li>Database Administrator</li>
+    </ol>
+
+    <!--Grade Calculator Form-->
+    <h2>IS 413 Grade Calculator</h2>
+    <form>
+        <label>Assignments (Out of 55%):</label><br />
+        <input id="iAssignments" /> <br />
+        <label>Group Project (Out of 5%):</label><br />
+        <input id="iGroupProject" /> <br />
+        <label>Quizzes (Out of 10%):</label><br />
+        <input id="iQuizzes" /> <br />
+        <label>Exams (Out of 20%):</label><br />
+        <input id="iExams" /> <br />
+        <label>INTEX (Out of 10%):</label><br />
+        <input id="iIntex" /> <br />
+        <input id="btnSend" type="button" value="Submit" />
+    </form>
+
+    <br />
+    <!--Where the form results will display-->
+    <strong><p id="formResults"></p></strong>
+
+    <!--jquery source-->
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <!--Custom Javascript-->
+    <script src="js/GradeCalculator.js"></script>
+    <!--Bootstrap Javascript-->
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+
+</body>
+</html>
